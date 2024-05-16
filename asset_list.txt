@@ -1,0 +1,2 @@
+ThirdPerson/Player/BP_PlayerGoatMain
+ThirdPerson/Player/BP_PlayerGoatMain_Original < ThirdPerson/Player/BP_PlayerGoatMain
