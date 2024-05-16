@@ -2,7 +2,7 @@
 
 Player controller with hooks for custom input actions or other events.
 
-If you're making a mod and you want to respond to an input action you created, you need a hook in the player controller. If everyone supplied their own hooked player controller, no mods would be compatible with each other. This project aims to be a collaboratively-developed player controller extension which contains all hooks for all mods.
+If you're making a mod and you want to respond to an input action you created, you need a hook in the player controller. Or you might have another reason you need a hook in the player controller. Whatever it is, if everyone supplied their own patched player controller, no mods would be compatible with each other because each mod would overwrite the original player controller with their own patched version. This project aims to be a collaboratively-developed player controller extension which contains all hooks for all mods.
 
 ### Contribution rules
 
@@ -18,7 +18,14 @@ You're probably contributing to this project to add support for your mod. Please
 
 Congratulations, you now have a hook into the player controller!
 
+Note: the same steps apply for blueprint actors, but dummying blueprint actors is a bit more involved. You'll need to use a blueprint actor as your hook if you want to spawn something in the world, for instance.
+
 ### How to build
+
+Prerequisites:
+
+- Unreal Engine 5.1
+- Python 3
 
 1. Run `cook.bat`
 1. Run `deploy.bat`
