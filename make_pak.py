@@ -6,7 +6,7 @@ import sys
 import tempfile
 
 _UNREAL_PAK_EXE = r'C:\Program Files\Epic Games\UE_5.1\Engine\Binaries\Win64\UnrealPak.exe'
-_REPAK_EXE = r'deps\repak_cli-v0.2.1-x86_64-pc-windows-msvc\repak.exe'
+_REPAK_EXE = r'deps\repak_cli-v0.2.3-x86_64-pc-windows-msvc\repak.exe'
 _UEDIT_EXE = r'deps\uedit-v1\uedit.exe'
 _ORIGINAL_PAK_PATH = r'C:\Program Files (x86)\Steam\steamapps\common\Pseudoregalia\pseudoregalia\Content\Paks\pseudoregalia-Windows.pak'
 
